@@ -1,0 +1,25 @@
+#menu-toggle {
+  display: none;
+}
+
+nav#nav-menu {
+  position: static;
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  width: auto;
+  padding: 0;
+  background: none;
+  box-shadow: none;
+  right: auto;
+}
+
+nav#nav-menu a {
+  margin-left: 1.5rem;
+  margin-bottom: 0;
+  font-size: 1rem;
+}
+
+.grid-projetos {
+  grid-template-columns: repeat(3, 1fr);
+}

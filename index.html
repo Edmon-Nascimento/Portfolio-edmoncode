@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Portfólio de Edmon Nascimento - Desenvolvedor Web. Veja meus projetos e entre em contato." />
+  <title>Portfólio - Edmon Nascimento</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="styles/style.css" />
+  <link rel="stylesheet" href="styles/desktop.css" media="screen and (min-width: 768px)" />
+</head>
+<body>
+  <header>
+    <h1>Edmoncode</h1>
+    <button id="menu-toggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav-menu">
+      <i class="fas fa-bars"></i>
+    </button>
+    <nav id="nav-menu">
+      <a href="#home" class="nav-link">Home</a>
+      <a href="#sobre" class="nav-link">Sobre</a>
+      <a href="#projetos" class="nav-link">Projetos</a>
+      <a href="#contato" class="nav-link">Contato</a>
+    </nav>
+  </header>
+
+  <section id="home" class="home">
+    <div class="home-content">
+      <img src="assets/images/profile.jpg" alt="Foto de Edmon Nascimento" class="profile-photo" />
+      <h2 class="anim-title">Edmon Nascimento</h2>
+      <h3>Transformo ideias em soluções digitais</h3>
+      <p>Desenvolvedor Web & Entusiasta da Tecnologia</p>
+      <a href="#projetos" class="btn">Ver Projetos</a>
+    </div>
+  </section>
+
+  <section id="sobre" class="sobre">
+    <h2 class="anim-title">Sobre Mim</h2>
+    <p>Me chamo Edmon, sou cristão, casado e desenvolvedor em formação. Sempre tive paixão por tecnologia e, hoje, foco no desenvolvimento web, buscando constantemente evoluir</p>
+    <p>Tenho experiência com HTML, CSS e JavaScript, e atualmente estou expandindo meus conhecimentos para me tornar um desenvolvedor fullstack.</p>
+    <p>Acredito que programar vai além de escrever código: é uma forma de transformar ideias em soluções reais e impactar positivamente o mundo por meio da tecnologia.</p>
+    <div class="skills">
+      <i class="fab fa-html5" title="HTML5"></i>
+      <i class="fab fa-css3-alt" title="CSS3"></i>
+      <i class="fab fa-js-square" title="JavaScript"></i>
+    </div>
+  </section>
+
+  <section id="projetos" class="projetos">
+    <h2 class="anim-title">Meus Projetos</h2>
+    <div class="grid-projetos">
+      <div class="projeto">
+        <img src="assets/images/form-casamento.jpg" alt="Imagem do projeto de formulário de casamento" />
+        <h3>Formulário de Casamento</h3>
+        <p>Um formulário de presença feito em HTML, CSS e JavaScript, com envio automático via EmailJS. Projeto especial, criado para meu próprio casamento e hospedado no GitHub Pages.</p>
+        <a href="https://edmon-nascimento.github.io/Wedding-attendance-form/" target="_blank" class="btn-projeto">Ver projeto</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="contato" class="contato">
+    <div class="contato-wrapper">
+      <div class="logo">
+        <h2>Edmoncode</h2>
+      </div>
+      <div class="contato-info">
+        <h2 class="anim-title">Entre em contato</h2>
+        <p><a href="mailto:edmoncode7@gmail.com">edmoncode7@gmail.com</a></p>
+        <div class="social">
+          <a href="https://www.linkedin.com/in/edmon-nascimento" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+          <a href="https://github.com/Edmon-Nascimento" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+          <a href="https://www.instagram.com/edmoncode" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="https://wa.me/5571920030489" target="_blank" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>Edmoncode 2025 &copy; Todos os direitos reservados</p>
+  </footer>
+
+  <button id="backToTop" aria-label="Voltar ao topo"><i class="fas fa-arrow-up"></i></button>
+
+  <script src="script.js"></script>
+</body>
+</html>
